@@ -1,0 +1,73 @@
+.timer {
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.timer h2 {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333333;
+}
+
+.timer-display {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.time-value {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  font-family: "Courier New", monospace;
+  color: #333333;
+}
+
+.timer-status {
+  font-size: 1rem;
+  margin: 0.5rem 0 0 0;
+  font-weight: 600;
+  color: #666666;
+}
+
+.timer-controls {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.timer .btn {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #333333;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: #ffffff;
+  color: #333333;
+  transition: all 0.2s;
+}
+
+.timer .btn:hover {
+  background: #333333;
+  color: #ffffff;
+}
+
+.timer .btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  border-color: #cccccc;
+  color: #cccccc;
+}
+
+.timer .btn:disabled:hover {
+  background: #ffffff;
+  color: #cccccc;
+}
